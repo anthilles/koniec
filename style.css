@@ -1,0 +1,13 @@
+.listaCwiczenUkryta{
+    height: 1px;
+    width: 1px;
+    display: none;
+}
+
+.PrzyciskOdgenerujUkryty{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
