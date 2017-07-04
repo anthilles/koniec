@@ -18,6 +18,9 @@ add.addEventListener('click', function(){
         element.innerHTML = x + ": " + y + " minut";
         element.appendChild(elementButton);
         elementButton.innerHTML = "usuń";
+        elementButton.id = "usunID";
+        
+      
         //czas
         element.appendChild(elementTime);
 //        element.appendChild(elementTimeButton);
@@ -27,6 +30,7 @@ add.addEventListener('click', function(){
         list.appendChild(element);
     }
 });
+
 
 
 
@@ -99,3 +103,6 @@ function odliczanieLista(){
 //        console.log(wynik);
 //    }
 }
+
+
+
